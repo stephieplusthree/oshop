@@ -13,7 +13,7 @@ export class LoginComponent {
   }
 
   login() {
-
+    this.afAuth.auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider());
   }
 
 }
