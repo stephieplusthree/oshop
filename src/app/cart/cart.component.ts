@@ -12,4 +12,4 @@ export class CartComponent implements OnInit {
   ngOnInit() {
   }
 
-}
+};
